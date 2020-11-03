@@ -22,6 +22,20 @@ nav {
 	font-family: 'Poppins', sans-serif;
 }
 
+.projects {
+	color: rgb(226, 226, 226);
+	font-family: 'Poppins', sans-serif;
+
+}
+
+.javascript {
+	text-align: center;
+}
+
+.center {
+	width: 800px;
+}
+
 .logo {
 	color: rgb(226, 226, 226);
 	text-transform: uppercase;
@@ -59,6 +73,8 @@ nav {
 	margin: 5px;
 }
 
+
+
 @media screen and (max-width: 1024px) {
 	.nav-links {
 		width: 60%;
@@ -69,6 +85,7 @@ nav {
 	body {
 		overflow: hidden;
 	}
+
 	.nav-links {
 		position: absolute;
 		right: 0px;
@@ -82,9 +99,11 @@ nav {
 		transform: translateX(100%);
 		transition: transform 0.5s ease-in;
 	}
+
 	.nav-links li {
 		opacity: 0;
 	}
+
 	.burger {
 		display: block;
 	}
