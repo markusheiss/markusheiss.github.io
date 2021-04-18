@@ -8,3 +8,5 @@ burger.addEventListener('click', () => {
 }
 
 navSlide();
+
+console.log("hello")
